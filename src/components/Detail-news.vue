@@ -96,7 +96,7 @@
     </div>-->
 
     <h1 class="baca">Baca Juga</h1>
-    <News style="margin-top:940px" />
+    <News class="news1" />
 
     <div>
       <v-row>
@@ -109,37 +109,7 @@
       </v-row>
     </div>
 
-    <div class="product">
-      <v-row>
-        <v-col>
-          <v-img :src="require('../assets/product.png')" class="prod"></v-img>
-          <p class="txt-prod">Juicy Lasting Tint</p>
-          <p class="txt-disc">Rp. 197.000</p>
-          <p class="txt-price">Rp. 150.000</p>
-        </v-col>
-
-        <v-col>
-          <v-img :src="require('../assets/product.png')" class="prod2"></v-img>
-          <p class="txt-prod2">Juicy Lasting Tint</p>
-          <p class="txt-disc2">Rp. 197.000</p>
-          <p class="txt-price2">Rp. 150.000</p>
-        </v-col>
-
-        <v-col>
-          <v-img :src="require('../assets/product.png')" class="prod3"></v-img>
-          <p class="txt-prod3">Juicy Lasting Tint</p>
-          <p class="txt-disc3">Rp. 197.000</p>
-          <p class="txt-price3">Rp. 150.000</p>
-        </v-col>
-
-        <v-col>
-          <v-img :src="require('../assets/product.png')" class="prod4"></v-img>
-          <p class="txt-prod4">Juicy Lasting Tint</p>
-          <p class="txt-disc4">Rp. 197.000</p>
-          <p class="txt-price4">Rp. 150.000</p>
-        </v-col>
-      </v-row>
-    </div>
+    <Product />
 
     <h1 class="recommend">Recommended for you</h1>
     <News style="margin-top:-100px" />
@@ -149,17 +119,23 @@
 <script>
 import NavbarNews from "../layouts/navbar-news.vue";
 import News from "../views/news.vue";
+import Product from "../views/product.vue";
 
 export default {
   components: {
     NavbarNews,
-    News
+    News,
+    Product
   }
 };
 </script>
 
 <style scoped>
 @media only screen and (max-width: 800px) {
+  .news1 {
+    margin-top: 940px;
+  }
+
   .chip1 {
     width: 27px;
     height: 27px;
@@ -204,163 +180,12 @@ export default {
     margin-left: 110px;
   }
 
-  .txt-prod {
-    position: absolute;
-    width: 149px;
-    height: 68px;
-    left: 22px;
-    top: 2480px;
-    font-family: AvenirNext;
-    font-size: 13px;
-    line-height: 120%;
-    text-align: center;
-    color: #353535;
-  }
-
-  .txt-prod2 {
-    position: absolute;
-    width: 149px;
-    height: 68px;
-    left: 190px;
-    top: 2480px;
-    font-family: AvenirNext;
-    font-size: 13px;
-    line-height: 120%;
-    text-align: center;
-    color: #353535;
-  }
-
-  .txt-prod3 {
-    position: absolute;
-    width: 149px;
-    height: 68px;
-    left: 22px;
-    top: 2740px;
-    font-family: AvenirNext;
-    font-size: 13px;
-    line-height: 120%;
-    text-align: center;
-    color: #353535;
-  }
-
-  .txt-prod4 {
-    position: absolute;
-    width: 149px;
-    height: 68px;
-    left: 190px;
-    top: 2740px;
-    font-family: AvenirNext;
-    font-size: 13px;
-    line-height: 120%;
-    text-align: center;
-    color: #353535;
-  }
-
-  .txt-disc {
-    margin-top: 200px;
-    color: #ababab;
-    font-family: AvenirNext;
-    font-size: 13px;
-    line-height: 120%;
-    text-align: center;
-    width: 102px;
-    height: 8.85px;
-    margin-left: 45px;
-    text-decoration: line-through;
-  }
-
-  .txt-disc2 {
-    margin-top: 200px;
-    color: #ababab;
-    font-family: AvenirNext;
-    font-size: 13px;
-    line-height: 120%;
-    text-align: center;
-    width: 102px;
-    height: 8.85px;
-    margin-left: 10px;
-    text-decoration: line-through;
-  }
-
-  .txt-disc3 {
-    margin-top: 200px;
-    color: #ababab;
-    font-family: AvenirNext;
-    font-size: 13px;
-    line-height: 120%;
-    text-align: center;
-    width: 102px;
-    height: 8.85px;
-    margin-left: 45px;
-    text-decoration: line-through;
-  }
-
-  .txt-disc4 {
-    margin-top: 200px;
-    color: #ababab;
-    font-family: AvenirNext;
-    font-size: 13px;
-    line-height: 120%;
-    text-align: center;
-    width: 102px;
-    height: 8.85px;
-    margin-left: 10px;
-    text-decoration: line-through;
-  }
-
-  .txt-price {
-    color: #ff5e98;
-    position: absolute;
-    width: 149px;
-    height: 68px;
-    margin-left: 20px;
-    font-family: AvenirNext;
-    font-size: 13px;
-    line-height: 120%;
-    text-align: center;
-  }
-
-  .txt-price2 {
-    color: #ff5e98;
-    position: absolute;
-    width: 149px;
-    height: 68px;
-    margin-left: -13px;
-    font-family: AvenirNext;
-    font-size: 13px;
-    line-height: 120%;
-    text-align: center;
-  }
-
-.txt-price3 {
-    color: #ff5e98;
-    position: absolute;
-    width: 149px;
-    height: 68px;
-    margin-left: 20px;
-    font-family: AvenirNext;
-    font-size: 13px;
-    line-height: 120%;
-    text-align: center;
-  }
-
-  .txt-price4 {
-    color: #ff5e98;
-    position: absolute;
-    width: 149px;
-    height: 68px;
-    margin-left: -13px;
-    font-family: AvenirNext;
-    font-size: 13px;
-    line-height: 120%;
-    text-align: center;
-  }
   .com {
     position: absolute;
     width: 60px;
     height: 18px;
     top: 1534px;
-    left: 120px;
+    left: 125px;
     font-family: AvenirNext;
     font-size: 12px;
     line-height: 14px;
@@ -562,40 +387,6 @@ export default {
     margin-left: 100px;
   }
 
-  .prod {
-    position: absolute;
-    width: 152px;
-    height: 152px;
-    left: 19px;
-    border-radius: 10px;
-  }
-
-  .prod2 {
-    position: absolute;
-    width: 152px;
-    height: 152px;
-    left: 191px;
-    border-radius: 10px;
-  }
-
-  .prod3 {
-    position: absolute;
-    width: 152px;
-    height: 152px;
-    left: 19px;
-    top: 2580px;
-    border-radius: 10px;
-  }
-
-  .prod4 {
-    position: absolute;
-    width: 152px;
-    height: 152px;
-    left: 191px;
-    top: 2580px;
-    border-radius: 10px;
-  }
-
   .recommend {
     position: absolute;
     width: 170px;
@@ -609,7 +400,48 @@ export default {
   }
 }
 
+@media only screen and (device-width: 360px) and (device-height: 640px) {
+  .com {
+    top: 1525px;
+  }
+}
+
 @media only screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
+  .news1 {
+    margin-top: 995px;
+  }
+
+  .baca {
+    top: 1600px;
+  }
+
+  .chip1 {
+    top: 1245px;
+  }
+
+  .img-chip1 {
+    top: 1222px;
+  }
+
+  .chip2 {
+    top: 1200px;
+  }
+
+  .img-chip2 {
+    top: 1177px;
+  }
+
+  .chip3 {
+    top: 1155px;
+  }
+
+  .img-chip3 {
+    top: 1122px;
+  }
+
+  .com {
+    top: 1572px;
+  }
   .ls-image,
   .txt,
   .txt-calendar {
