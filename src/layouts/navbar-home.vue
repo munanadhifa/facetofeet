@@ -1,5 +1,6 @@
 <template>
-   <v-toolbar flat>
+  <div>
+    <v-app-bar flat fixed color="white">
       <v-row>
         <v-col cols="6">
           <v-img
@@ -23,15 +24,70 @@
           </v-btn>
         </v-col>
       </v-row>
-    </v-toolbar>
+    </v-app-bar>
+
+ <div class="bit-new-portocard-row">
+      <div class="text-center">
+        <v-btn rounded class="btn-home" dark to="/">Home</v-btn>
+      </div>
+      
+      <h5
+        style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px; "
+      >Shop</h5>
+      <h5
+        style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px;"
+      >Beauty</h5>
+      <h5
+        style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px;"
+      >Kwave</h5>
+      <h5
+        style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px;"
+      >Review</h5>
+      <h5
+        style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px;"
+      >Fashion</h5>
+      <h5
+        style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px;"
+      >Hijab</h5>
+      <h5
+        style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px;"
+      >Lifestyle</h5>
+      <h5
+        style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px;"
+      >Event</h5>
+      <h5
+        style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px;"
+      >Video</h5>
+    </div>
+   
+  </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
+<style scoped>
 
+  .bit-new-portocard-row {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0 20px;
+    margin-top: 70px;
+    margin-left: -30px;
+  }
+
+
+.btn-home {
+  background: linear-gradient(88.11deg, #ff86b1 13.76%, #ffb9d2 92.76%);
+  margin-left: 30px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 16px;
+}
 </style>

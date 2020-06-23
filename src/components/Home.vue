@@ -3,38 +3,8 @@
 
     <NavbarHome/>
   
-    <div class="bit-new-portocard-row">
-      <h5
-        style="margin-left:30px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px; "
-      >Home</h5>
-      <h5
-        style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px; "
-      >Shop</h5>
-      <h5
-        style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px;"
-      >Beauty</h5>
-      <h5
-        style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px;"
-      >Kwave</h5>
-      <h5
-        style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px;"
-      >Review</h5>
-      <h5
-        style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px;"
-      >Fashion</h5>
-      <h5
-        style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px;"
-      >Hijab</h5>
-      <h5
-        style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px;"
-      >Lifestyle</h5>
-      <h5
-        style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px;"
-      >Event</h5>
-      <h5
-        style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px;"
-      >Video</h5>
-    </div>
+    
+
 
     <div class="bit-new-photocard">
       <div class="foto-1">
@@ -380,16 +350,6 @@ export default {
   .class-atas {
     overflow: auto;
     white-space: nowrap;
-  }
-
-  .bit-new-portocard-row {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding: 0 20px;
-    margin-left: -30px;
   }
 
   .bit-new-photocard {

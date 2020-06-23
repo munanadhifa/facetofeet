@@ -4,6 +4,7 @@
     grow
     color="#FF5E98"
     class="footer"
+    fixed
   >
     <v-btn to="/">
       <span>Home</span>

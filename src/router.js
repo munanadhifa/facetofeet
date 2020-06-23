@@ -9,6 +9,7 @@ import DetailNews from '../src/components/Detail-news.vue'
 import NewsSlider from '../src/components/News-slider.vue'
 import Search from '../src/components/Search.vue'
 import SearchRes from '../src/components/Search-result.vue'
+import Beauty from '../src/components/Detail-Menu.vue'
 
 Vue.use(Router);
 
@@ -60,6 +61,11 @@ export default new Router ({
       path: '/searchres',
       name: 'SearchRes',
       component: SearchRes
+    },
+    {
+      path: '/beauty',
+      name: 'Beauty',
+      component: Beauty
     }
   ]
 })

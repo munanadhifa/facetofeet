@@ -3,16 +3,15 @@
     <div class="background-pink">
       <v-img
         alt="Vuetify Logo"
-        class="shrink mr-2"
+        class="ftf-putih"
         contain
         :src="require('../assets/logoftf-putih.png')"
         transition="scale-transition"
-        style="position: absolute; right: 45%; top: -30%; bottom: 20%;"
       />
 
       <h1 class="hello">Hello User</h1>
 
-      <v-avatar color="#D4D4D4" size="130" style="margin-top:120px; margin-left:120px">
+      <v-avatar color="#D4D4D4" size="130" class="acc">
         <v-icon>mdi-account</v-icon>
       </v-avatar>
     </div>
@@ -175,9 +174,21 @@ export default {
     background: #fe5c96;
   }
 
+  .acc{
+    margin-top:120px; 
+    margin-left:120px
+  }
+
+  .ftf-putih {
+    position: absolute;
+    right: 43%;
+    top: -30%;
+    bottom: 20%;
+  }
+
   .hello {
     position: absolute;
-    left: 35%;
+    left: 37%;
     right: 29.27%;
     top: 50%;
     bottom: 86.25%;
@@ -291,7 +302,7 @@ export default {
   }
 
   .btn-login {
-    left: 185px;
+    left: 160px;
   }
 
   .background-pink {
@@ -302,5 +313,21 @@ export default {
     top: 0px;
     background: #fe5c96;
   }
+
+  .ftf-putih {
+    position: absolute;
+    right: 55%;
+    top: -30%;
+    bottom: 20%;
+  }
+
+  .hello{
+    left: 27%;
+  }
+
+  .acc{
+    margin-left: 95px;
+  }
+
 }
 </style>

@@ -143,8 +143,8 @@ export default {
     position: absolute;
     width: 58px;
     height: 18px;
-    left: 19px;
-    top: 67px;
+    left: 25px;
+    top: 110px;
     font-family: AvenirNext;
     font-size: 15px;
     line-height: 120%;
@@ -156,7 +156,7 @@ export default {
     width: 288px;
     height: 304px;
     left: 80px;
-    top: 110px;
+    top: 150px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -170,7 +170,7 @@ export default {
     width: 288px;
     height: 304px;
     left: 80px;
-    top: 175px;
+    top: 210px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -184,7 +184,7 @@ export default {
     width: 288px;
     height: 304px;
     left: 80px;
-    top: 235px;
+    top: 270px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -198,7 +198,7 @@ export default {
     width: 288px;
     height: 304px;
     left: 80px;
-    top: 290px;
+    top: 330px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -212,7 +212,7 @@ export default {
     width: 288px;
     height: 304px;
     left: 80px;
-    top: 350px;
+    top: 390px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -226,7 +226,7 @@ export default {
     width: 288px;
     height: 304px;
     left: 80px;
-    top: 409px;
+    top: 445px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -240,7 +240,7 @@ export default {
     width: 288px;
     height: 304px;
     left: 80px;
-    top: 470px;
+    top: 505px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -254,7 +254,7 @@ export default {
     width: 288px;
     height: 304px;
     left: 80px;
-    top: 530px;
+    top: 565px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
