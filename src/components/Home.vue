@@ -1,10 +1,6 @@
 <template>
   <v-container>
-
-    <NavbarHome/>
-  
-    
-
+    <NavbarHome />
 
     <div class="bit-new-photocard">
       <div class="foto-1">
@@ -26,23 +22,23 @@
     <div class="article-home">
       <div class="article-1">
         <router-link to="/news">
-        <v-img
-          :src="require('../assets/foto-4.jpg')"
-          style="border-radius:20px; margin-top:20px; width:300px; margin-left:10px"
-          gradient="to top right, rgba(100,115,201,.33), rgba(25,32,72,.7)"
-        >
-          <v-row>
-            <v-col style="margin-top:-10px">
-              <v-icon class="clock" color="white">mdi-clock</v-icon>
-            </v-col>
-            <v-col>
-              <p class="jam">5 menit lalu</p>
-            </v-col>
-          </v-row>
+          <v-img
+            :src="require('../assets/foto-4.jpg')"
+            style="border-radius:20px; margin-top:20px; width:300px; margin-left:10px"
+            gradient="to top right, rgba(100,115,201,.33), rgba(25,32,72,.7)"
+          >
+            <v-row>
+              <v-col style="margin-top:-10px">
+                <v-icon class="clock" color="white">mdi-clock</v-icon>
+              </v-col>
+              <v-col>
+                <p class="jam">5 menit lalu</p>
+              </v-col>
+            </v-row>
 
-          <p class="txt">Ini Alasan Mengapa Jangan Membasuh Wajah di Bawah Shower</p>
-          <v-divider class="border-article" style="border-color: #E83967;"></v-divider>
-        </v-img>
+            <p class="txt">Ini Alasan Mengapa Jangan Membasuh Wajah di Bawah Shower</p>
+            <v-divider class="border-article" style="border-color: #E83967;"></v-divider>
+          </v-img>
         </router-link>
       </div>
 
@@ -71,10 +67,10 @@
       <v-row>
         <v-col>
           <router-link to="/news-slider">
-          <v-img
-            :src="require('../assets/Bitmap.png')"
-            style="border-radius:20px; margin-top:20px; margin-left:20px"
-          />
+            <v-img
+              :src="require('../assets/Bitmap.png')"
+              style="border-radius:20px; margin-top:20px; margin-left:20px"
+            />
           </router-link>
         </v-col>
         <v-col>
@@ -165,20 +161,25 @@
       <v-btn rounded class="load" dark>Load More</v-btn>
     </div>
 
-    <FooterHome style="margin-top:30px"/>
-
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    
+    <FooterHome />
   </v-container>
 </template>
 
 <script>
-import NavbarHome from '../layouts/navbar-home.vue'
-import Kecantikan from "../views/Kecantikan.vue"
-import GayaHidup from '../views/GayaHidup.vue'
-import Event from "../views/Event.vue"
+import NavbarHome from "../layouts/navbar-home.vue";
+import Kecantikan from "../views/Kecantikan.vue";
+import GayaHidup from "../views/GayaHidup.vue";
+import Event from "../views/Event.vue";
 import Video from "../views/Video.vue";
 import Fashion from "../views/Fashion.vue";
 import Tutorial from "../views/Tutorial.vue";
-import FooterHome from "../layouts/footer-home.vue"
+import FooterHome from "../layouts/footer-home.vue";
 
 export default {
   data() {
@@ -205,7 +206,6 @@ export default {
 </script>
 
 <style scoped>
-
 @media only screen and (max-width: 800px) {
   .load {
     background: linear-gradient(88.11deg, #ff86b1 13.76%, #ffb9d2 92.76%);
@@ -466,8 +466,8 @@ export default {
   }
 }
 
-@media only screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
-  .jam-1{
+@media only screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
+  .jam-1 {
     margin-left: -40px;
   }
 }

@@ -223,6 +223,67 @@ export default {};
     text-align: center;
   }
 }
+@media only screen and (device-width: 411px) and (device-height: 731px) {
+  .txt-prod,
+  .txt-prod2{
+    top: 2499px;
+  }
+  .txt-disc{
+    margin-top: 180px;
+  }
+  .txt-disc2{
+    margin-top: 180px;
+    margin-left: -5px;
+  }
+  .txt-disc4{
+    margin-left: -5px;
+  }
+  .txt-price2,
+  .txt-price4{
+     margin-left: -27px;
+  }
+}
+@media only screen and (device-width: 411px) and (device-height: 823px) {
+  .txt-prod,
+  .txt-prod2{
+    top: 2499px;
+  }
+  .txt-disc{
+    margin-top: 180px;
+  }
+  .txt-disc2{
+    margin-top: 180px;
+    margin-left: -5px;
+  }
+  .txt-disc4{
+    margin-left: -5px;
+  }
+  .txt-price2,
+  .txt-price4{
+     margin-left: -27px;
+  }
+}
+
+@media only screen and (device-width: 414px) and (device-height: 736px) {
+  .txt-prod,
+  .txt-prod2{
+    top: 2499px;
+  }
+  .txt-disc{
+    margin-top: 180px;
+  }
+  .txt-disc2{
+    margin-top: 180px;
+    margin-left: -5px;
+  }
+  .txt-disc4{
+    margin-left: -5px;
+  }
+  .txt-price2,
+  .txt-price4{
+     margin-left: -27px;
+  }
+}
 @media only screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
   .prod,
   .prod3{
@@ -239,6 +300,7 @@ export default {};
 
   .txt-prod{
     left: 15px;
+    top: 2497px;
   }
 
   .txt-disc{
@@ -252,6 +314,7 @@ export default {};
 
   .txt-prod2{
     left: 165px;
+    top: 2497px;
   }
 
   .txt-disc2{
@@ -270,6 +333,7 @@ export default {};
 
   .txt-disc3{
     margin-left: 35px;
+    margin-top: 180px;
   }
 
   .txt-price3{
@@ -279,6 +343,10 @@ export default {};
 .txt-prod4{
   margin-left: -20px;
     margin-top: -15px;
+}
+
+.txt-disc4{
+   margin-top: 180px;
 }
 
   

@@ -5,6 +5,7 @@
     color="#FF5E98"
     class="footer"
     fixed
+    style="margin-top:30px"
   >
     <v-btn to="/">
       <span>Home</span>

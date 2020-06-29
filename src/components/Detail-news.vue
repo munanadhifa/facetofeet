@@ -133,7 +133,7 @@ export default {
 <style scoped>
 @media only screen and (max-width: 800px) {
   .news1 {
-    margin-top: 940px;
+    margin-top: 1030px;
   }
 
   .chip1 {
@@ -147,7 +147,7 @@ export default {
   .img-chip1 {
     width: 15px;
     height: 18px;
-    top: 1147px;
+    top: 1185px;
     margin-left: 25px;
   }
 
@@ -156,13 +156,13 @@ export default {
     height: 27px;
     border-radius: 12px;
     left: 60px;
-    top: 1125px;
+    top: 1164px;
   }
 
   .img-chip2 {
     width: 15px;
     height: 18px;
-    top: 1103px;
+    top: 1179px;
     margin-left: 65px;
   }
 
@@ -171,12 +171,13 @@ export default {
     height: 27px;
     border-radius: 12px;
     left: 100px;
-    top: 1080px;
+    top: 1157px;
   }
 
   .img-chip3 {
     width: 15px;
-    top: 1047px;
+    height: 15px;
+    top: 1161px;
     margin-left: 110px;
   }
 
@@ -400,6 +401,131 @@ export default {
   }
 }
 
+@media only screen and (device-width: 411px) and (device-height: 731px) {
+  .ls-image{
+    left: 150px;
+  }
+  .txt{
+    left: 30px;
+  }
+  .txt-calendar{
+    left: 110px;
+  }
+  .rectangle-4{
+    margin-left: -195px;
+  }
+  .rectangle-5{
+    margin-left: -166px;
+  }
+  .rectangle-6{
+    margin-left: -136px;
+  }
+  .chip1{
+    top: 1140px;
+  }
+  .chip2{
+    top: 1133px;
+  }
+  .chip3{
+    top: 1127px;
+  }
+  .img-chip1{
+    top: 1155px;
+  }
+  .img-chip2{
+    top: 1149px;
+  }
+  .img-chip3{
+    top: 1131px;
+  }
+  .com{
+    top: 1529px;
+  }
+}
+
+@media only screen and (device-width: 411px) and (device-height: 823px) {
+  .ls-image{
+    left: 150px;
+  }
+  .txt{
+    left: 30px;
+  }
+  .txt-calendar{
+    left: 110px;
+  }
+  .rectangle-4{
+    margin-left: -195px;
+  }
+  .rectangle-5{
+    margin-left: -166px;
+  }
+  .rectangle-6{
+    margin-left: -136px;
+  }
+  .chip1{
+    top: 1140px;
+  }
+  .chip2{
+    top: 1133px;
+  }
+  .chip3{
+    top: 1127px;
+  }
+  .img-chip1{
+    top: 1155px;
+  }
+  .img-chip2{
+    top: 1149px;
+  }
+  .img-chip3{
+    top: 1131px;
+  }
+  .com{
+    top: 1529px;
+  }
+}
+@media only screen and (device-width: 414px) and (device-height: 736px) {
+.ls-image{
+    left: 150px;
+  }
+  .txt{
+    left: 30px;
+  }
+  .txt-calendar{
+    left: 110px;
+  }
+  .rectangle-4{
+    margin-left: -195px;
+  }
+  .rectangle-5{
+    margin-left: -166px;
+  }
+  .rectangle-6{
+    margin-left: -136px;
+  }
+  .chip1{
+    top: 1140px;
+  }
+  .chip2{
+    top: 1133px;
+  }
+  .chip3{
+    top: 1127px;
+  }
+  .img-chip1{
+    top: 1155px;
+  }
+  .img-chip2{
+    top: 1149px;
+  }
+  .img-chip3{
+    top: 1131px;
+  }
+  .com{
+    top: 1529px;
+  }
+}
+
 @media only screen and (device-width: 360px) and (device-height: 640px) {
   .com {
     top: 1525px;
@@ -407,8 +533,9 @@ export default {
 }
 
 @media only screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
+
   .news1 {
-    margin-top: 995px;
+    margin-top: 1100px;
   }
 
   .baca {
@@ -420,23 +547,23 @@ export default {
   }
 
   .img-chip1 {
-    top: 1222px;
+    top: 1260px;
   }
 
   .chip2 {
-    top: 1200px;
+    top: 1238px;
   }
 
   .img-chip2 {
-    top: 1177px;
+    top: 1254px;
   }
 
   .chip3 {
-    top: 1155px;
+    top: 1233px;
   }
 
   .img-chip3 {
-    top: 1122px;
+    top: 1236px;
   }
 
   .com {
@@ -455,6 +582,7 @@ export default {
   .txt-news {
     margin-left: -10px;
     width: 300px;
+    margin-top: -30px;
   }
 
   .tag {
@@ -495,4 +623,6 @@ export default {
     margin-top: 50px;
   }
 }
+
+
 </style>
