@@ -403,13 +403,22 @@ export default {
 
 @media only screen and (device-width: 411px) and (device-height: 731px) {
   .ls-image{
-    left: 150px;
+    left: 160px;
   }
   .txt{
-    left: 30px;
+    left: 50px;
   }
   .txt-calendar{
-    left: 110px;
+    left: 120px;
+  }
+  .txt-image{
+    margin-top: 20px;
+  }
+  .txt-news{
+    margin-top: 10px;
+  }
+  .tag{
+    margin-top: 10px;
   }
   .rectangle-4{
     margin-left: -195px;
@@ -446,6 +455,15 @@ export default {
 @media only screen and (device-width: 411px) and (device-height: 823px) {
   .ls-image{
     left: 150px;
+  }
+  .txt-image{
+    margin-top: 20px;
+  }
+  .txt-news{
+    margin-top: 10px;
+  }
+  .tag{
+    margin-top: 10px;
   }
   .txt{
     left: 30px;
@@ -486,13 +504,22 @@ export default {
 }
 @media only screen and (device-width: 414px) and (device-height: 736px) {
 .ls-image{
-    left: 150px;
+    left: 160px;
   }
   .txt{
-    left: 30px;
+    left: 50px;
   }
   .txt-calendar{
-    left: 110px;
+    left: 120px;
+  }
+  .txt-image{
+    margin-top: 20px;
+  }
+  .txt-news{
+    margin-top: 10px;
+  }
+  .tag{
+    margin-top: 10px;
   }
   .rectangle-4{
     margin-left: -195px;

@@ -188,6 +188,137 @@ export default {
     top: 485px;
   }
 
+  @media only screen and (device-width: 411px) and (device-height: 731px) {
+    .share{
+      margin-top: 60px;
+      margin-left: 20px;
+    }
+    .close{
+      margin-top: 60px;
+    }
+    .twit{
+      margin-top: 65px;
+      margin-left: 5px;
+    }
+    .img-chip1{
+      margin-left: 50px;
+    }
+    .fb{
+      margin-top: 65px;
+      margin-left: 15px;
+    }
+    .img-chip2{
+      margin-left: 47px;
+    }
+    .wa{
+      margin-top: 65px;
+      margin-left: 20px;
+    }
+    .img-chip3{
+      margin-left: 50px;
+    }
+    .com{
+      margin-top: 65px;
+      margin-left: 30px;
+    }
+    .img-chip4{
+      margin-left: 48px;
+    }
+  }
+
+    @media only screen and (device-width: 411px) and (device-height: 823px) {
+    .share{
+      margin-top: 150px;
+      margin-left: 20px;
+    }
+    .close{
+      margin-top: 150px;
+    }
+    .twit{
+      margin-top: 150px;
+      margin-left: 5px;
+    }
+    .img-chip1{
+      margin-left: 50px;
+    }
+    .fb{
+      margin-top: 150px;
+      margin-left: 15px;
+    }
+    .img-chip2{
+      margin-left: 47px;
+    }
+    .wa{
+      margin-top: 150px;
+      margin-left: 20px;
+    }
+    .img-chip3{
+      margin-left: 50px;
+    }
+    .com{
+      margin-top: 150px;
+      margin-left: 30px;
+    }
+    .img-chip4{
+      margin-left: 48px;
+    }
+  }
+
+    @media only screen and (device-width: 414px) and (device-height: 736px) {
+    .share{
+      margin-top: 60px;
+      margin-left: 20px;
+    }
+    .close{
+      margin-top: 60px;
+    }
+    .twit{
+      margin-top: 65px;
+      margin-left: 5px;
+    }
+    .img-chip1{
+      margin-left: 50px;
+    }
+    .fb{
+      margin-top: 65px;
+      margin-left: 15px;
+    }
+    .img-chip2{
+      margin-left: 47px;
+    }
+    .wa{
+      margin-top: 65px;
+      margin-left: 20px;
+    }
+    .img-chip3{
+      margin-left: 50px;
+    }
+    .com{
+      margin-top: 65px;
+      margin-left: 30px;
+    }
+    .img-chip4{
+      margin-left: 48px;
+    }
+  }
+
+    @media only screen and (device-width: 375px) and (device-height: 812px) {
+    .share{
+      margin-top: 130px;
+      margin-left: 20px;
+    }
+    .close{
+      margin-top: 130px;
+    }
+    .twit,
+    .fb,
+    .wa,
+    .com{
+      margin-top: 140px;
+    }
+
+  }
+
   @media only screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
     .img-chip1 {
       width: 25px;
