@@ -34,9 +34,9 @@
       <h5
         style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px; "
       >Shop</h5>
-      <h5
-        style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px;"
-      >Beauty</h5>
+       <div class="text-center">
+        <v-btn rounded class="btn-home" dark to="/beauty">Beauty</v-btn>
+      </div>
       <h5
         style="margin-left: 20px; font-family: Avenir; font-style: normal;font-weight: normal; font-size: 15px; line-height: 16px;"
       >Kwave</h5>

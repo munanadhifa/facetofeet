@@ -144,7 +144,7 @@ export default {
     width: 58px;
     height: 18px;
     left: 25px;
-    top: 110px;
+    top: 130px;
     font-family: AvenirNext;
     font-size: 15px;
     line-height: 120%;
