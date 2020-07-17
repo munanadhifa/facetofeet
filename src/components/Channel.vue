@@ -155,8 +155,8 @@ export default {
     position: absolute;
     width: 288px;
     height: 304px;
-    left: 80px;
-    top: 150px;
+    left: -100px;
+    top: 60px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -169,8 +169,8 @@ export default {
     position: absolute;
     width: 288px;
     height: 304px;
-    left: 80px;
-    top: 210px;
+   left: -100px;
+    top: 20px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -183,8 +183,8 @@ export default {
     position: absolute;
     width: 288px;
     height: 304px;
-    left: 80px;
-    top: 270px;
+    left: -100px;
+    top: 20px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -197,8 +197,8 @@ export default {
     position: absolute;
     width: 288px;
     height: 304px;
-    left: 80px;
-    top: 330px;
+    left: -100px;
+    top: 20px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -211,8 +211,8 @@ export default {
     position: absolute;
     width: 288px;
     height: 304px;
-    left: 80px;
-    top: 390px;
+    left: -100px;
+    top: 20px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -225,8 +225,8 @@ export default {
     position: absolute;
     width: 288px;
     height: 304px;
-    left: 80px;
-    top: 445px;
+    left: -100px;
+    top: 20px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -239,8 +239,8 @@ export default {
     position: absolute;
     width: 288px;
     height: 304px;
-    left: 80px;
-    top: 505px;
+    left: -100px;
+    top: 20px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -253,8 +253,8 @@ export default {
     position: absolute;
     width: 288px;
     height: 304px;
-    left: 80px;
-    top: 565px;
+    left: -100px;
+    top: 20px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -265,5 +265,15 @@ export default {
 }
 
 @media only screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
+  .beauty,
+  .kwave,
+  .review,
+  .fashion,
+  .hijab,
+  .lifestyle,
+  .event,
+  .video{
+    margin-left: 20px;
+  }
 }
 </style>

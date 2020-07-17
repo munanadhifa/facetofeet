@@ -76,7 +76,7 @@
         <v-col>
           <p class="tips">Tips Makeup</p>
           <v-row>
-            <v-col style="margin-top:100px; margin-left:10px">
+            <v-col style="margin-top:100px; margin-left:-20px">
               <v-icon color="grey">mdi-clock</v-icon>
             </v-col>
             <v-col>
@@ -98,7 +98,7 @@
         <v-col>
           <p class="tips">Tips Makeup</p>
           <v-row>
-            <v-col style="margin-top:100px; margin-left:10px">
+            <v-col style="margin-top:100px; margin-left:-20px">
               <v-icon color="grey">mdi-clock</v-icon>
             </v-col>
             <v-col>
@@ -119,7 +119,7 @@
         <v-col>
           <p class="tips">Tips Makeup</p>
           <v-row>
-            <v-col style="margin-top:100px; margin-left:10px">
+            <v-col style="margin-top:100px; margin-left:-20px">
               <v-icon color="grey">mdi-clock</v-icon>
             </v-col>
             <v-col>
@@ -140,7 +140,7 @@
         <v-col>
           <p class="tips">Tips Makeup</p>
           <v-row>
-            <v-col style="margin-top:100px; margin-left:10px">
+            <v-col style="margin-top:100px; margin-left:-20px">
               <v-icon color="grey">mdi-clock</v-icon>
             </v-col>
             <v-col>
@@ -384,16 +384,14 @@ export default {
     line-height: 120%;
     color: #353535;
     width: 200px;
-    margin-left: 40px;
+    margin-left: 30px;
     margin-top: 10px;
   }
 
   .jam {
-    position: absolute;
-    width: 102px;
-    height: 9px;
-    left: 220px;
-    top: 10px;
+    position:absolute;
+    margin-left: 40px;
+    margin-top: 10px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -442,8 +440,8 @@ export default {
     font-size: 20px;
     line-height: 22px;
     color: #474747;
-    margin-top: 40px;
-    margin-left: 10px;
+    margin-top: 25px;
+    margin-left: -20px;
   }
 
   .jam-1 {

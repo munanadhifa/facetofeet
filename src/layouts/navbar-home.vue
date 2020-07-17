@@ -9,7 +9,8 @@
             contain
             :src="require('../assets/logo-ftf.png')"
             transition="scale-transition"
-            style="position: absolute; left: 4.44%; right: 63.99%; top: 20%; bottom: 20%;"
+
+            style="position: absolute; height: 30px; top: 30%; right: 10px;cbottom: 20%;"
           />
         </v-col>
 
