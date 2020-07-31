@@ -86,17 +86,14 @@ export default {
   .beauty-1 {
     position: absolute;
     width: 152px;
-    height: 110px;
-    left: 17px;
+    left: 30px;
     border-radius: 10px;
   }
 
   .beauty-2 {
     position: absolute;
     width: 153px;
-    height: 110px;
-    left: 187px;
-
+    left: 80px;
     border-radius: 10px;
   }
 
@@ -121,7 +118,7 @@ export default {
     line-height: 120%;
     color: #353535;
     margin-top: 115px;
-    left: 190px;
+    left: 80px;
   }
 
   .jam {
@@ -149,7 +146,6 @@ export default {
   .beauty-3 {
     position: absolute;
     width: 152px;
-    height: 110px;
     left: 17px;
     border-radius: 10px;
     margin-top: 170px;
@@ -158,8 +154,7 @@ export default {
   .beauty-4 {
     position: absolute;
     width: 153px;
-    height: 110px;
-    left: 187px;
+    left: 10px;
     border-radius: 10px;
     margin-top: 170px;
   }

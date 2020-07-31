@@ -100,7 +100,7 @@
             contain
             :src="require('../assets/twit.png')"
             transition="scale-transition"
-            style="position: absolute;width: 29px; height: 29px; left: 60px; top: 680px;"
+            style="position: absolute;width: 29px; height: 29px; left: 90px; top: 30px;"
           />
         </v-col>
         <v-col>
@@ -110,7 +110,7 @@
             contain
             :src="require('../assets/fb.png')"
             transition="scale-transition"
-            style="position: absolute;width: 29px; height: 29px; left: 110px; top: 680px;"
+            style="position: absolute;width: 29px; height: 29px; left: 50px; top: 30px;"
           />
         </v-col>
         <v-col>
@@ -120,7 +120,7 @@
             contain
             :src="require('../assets/youtube.png')"
             transition="scale-transition"
-            style="position: absolute;width: 29px; height: 29px; left: 160px; top: 680px;"
+            style="position: absolute;width: 29px; height: 29px; left: 10px; top: 30px;"
           />
         </v-col>
         <v-col>
@@ -130,7 +130,7 @@
             contain
             :src="require('../assets/google.png')"
             transition="scale-transition"
-            style="position: absolute;width: 29px; height: 29px; left: 210px; top: 680px;"
+            style="position: absolute;width: 29px; height: 29px; left: -30px; top: 30px;"
           />
         </v-col>
         <v-col>
@@ -140,7 +140,7 @@
             contain
             :src="require('../assets/ig.png')"
             transition="scale-transition"
-            style="position: absolute;width: 29px; height: 29px; left: 260px; top: 680px;"
+            style="position: absolute;width: 29px; height: 29px; left: -70px; top: 30px;"
           />
         </v-col>
       </v-row>
@@ -217,7 +217,7 @@ export default {
     position: absolute;
     width: 288px;
     height: 190px;
-    left: 120px;
+    left: -80px;
     top: 340px;
     font-family: Avenir;
     font-style: normal;
@@ -231,8 +231,7 @@ export default {
     position: absolute;
     width: 288px;
     height: 190px;
-    left: 120px;
-    top: 400px;
+    left: -80px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -245,8 +244,7 @@ export default {
     position: absolute;
     width: 288px;
     height: 190px;
-    left: 120px;
-    top: 465px;
+    left: -80px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -259,8 +257,7 @@ export default {
     position: absolute;
     width: 288px;
     height: 190px;
-    left: 120px;
-    top: 530px;
+    left: -80px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -273,8 +270,7 @@ export default {
     position: absolute;
     width: 288px;
     height: 190px;
-    left: 120px;
-    top: 595px;
+    left: -80px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
